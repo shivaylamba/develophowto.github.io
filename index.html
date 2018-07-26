@@ -1,11 +1,323 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Develop How-To</title>
-</head>
-<body>
-<h1>Welcometo Develop How-To</h1>
-<h3>The Wesite is under construction!!</h3>
-<h3>Visit<a href="megabyte/index.html"> Mega-Byte</a> The aspiring white-hat hacker/security awareness playground</h3>
+<title>Mega Byte — The aspiring white-hat hacker/security awareness playground &#171; Mega Byte :: LearnHowTo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/mainstyle.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="css/menu.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  if($(window).width() <= 950) {
+window.location = "index.htm";
+}
+});
+</script>
+
+<body class="w3-light-grey">
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32 header-bg"> 
+  <p class="logo logotext textdesign1">DEVELOP <span class="w3-tag">HOW-TO</span></p>
+  <p class="logotext textdesign1">Developing a desire to learn is the kindling point of all classroom achievement.</p>
+</header>
+<style>
+  .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.fa {
+  padding: 0px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+
+.fa-facebook {
+  color: white;
+}
+</style>
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+
+<div id="myHeader">
+<ul class="menutext">
+  <li><a href="index.html" class="active">HOME</a></li>
+  <li><a href="news.html">LATEST NEWS</a></li>
+  <li><a href="#contact">GADGETS WORLD</a></li>
+  <li><a href="#about">FOOD VIBES</a></li>
+  <li><a href="#contact">PROJECTS</a></li>
+  <li><a href="/megabyte/index.html">MEGA BYTE</a></li>
+  <li><a href="#contact">GAMES</a></li>
+  <li><span class="menutext" style="font-size:25px; color:white; cursor:pointer; float:right;" onclick="openNav()">&#9776;</span></li>
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <center><P style="color:#2ac1b6; font-family:serif; font-size: 20px;">HACKING</P></center>
+  <a href="#" style="font-size:18px">HACK WIFI</a>
+  <a href="#" style="font-size:18px">HACK ANDROID</a>
+  <a href="#" style="font-size:18px">CREATE TORJAN</a>
+  <hr>
+  <center><P style="color:#2ac1b6; font-family:serif; font-size: 20px;">FOOD AND RECIPES</P></center>
+  <a href="#" style="font-size:18px">FOOD VIBES</a>
+  <hr>
+  <center><P style="color:#2ac1b6; font-family:serif; font-size: 20px;">START BUILDING SOMETHING FROM SCRATCH</P></center>
+  <a href="#" style="font-size:18px">LEARN HTML</a>
+  <a href="#" style="font-size:18px">LEARN CSS</a>
+  <a href="#" style="font-size:18px">LEARN JS</a>
+  <a href="#" style="font-size:18px">LEARN PHP</a>
+  <hr>
+  <center><P style="color:#2ac1b6; font-family:serif; font-size: 20px;">JUMP INTO TECH</P></center>
+  <a href="#" style="font-size:18px">GADGETS WORLD</a>
+  <hr>
+  <center><P style="color:#2ac1b6; font-family:serif; font-size: 20px;">LEARN A EASY WAY TO DO SCHOOL PROJECTS</P></center>
+  <a href="#" style="font-size:18px">SCIENCE PROJECTS</a>
+  <a href="#" style="font-size:18px">ART & CRAFT</a>
+  <hr>
+   <center><P style="color:#2ac1b6; font-family:serif; font-size: 20px;">SOCIAL</P></center>
+  <a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-instagram"></a>      
+</div>
+</ul>
+</div>
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <center><img src="img/01.medium" alt="Nature" style="width:50%"></center>
+    <div class="w3-container">
+      <h3><b>Replace Your iPhone X's Battery Just Like Apple Would</b></h3>
+      <p><span class="w3-tag">IOS & IPHONE</span> BY JAKE PETERSON 07/26/2018 9:45 PM</p>
+    </div>
+
+    <div class="w3-container">
+      <p>Each year, Apple seems to design its devices to be more difficult for owners to repair themselves. So when an iPhone breaks, a trip to the Genius Bar or an Apple Authorized Service Provider is most likely necessary. But if you have an iPhone X that needs a new battery, a leaked video just spilled the beans on how to replace the battery precisely as Apple would.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <center><img src="img/02.jpg" alt="Norway" style="width:50%"></center>
+    <div class="w3-container">
+      <h3><b>The ASUS ZenFone 5Z Is Coming to the US with Legit Flagship Specs for Under $500</b></h3>
+       <p><span class="w3-tag">ANDROID </span> BY JON KNIGHT 07/26/2018 4:27 AM</p>
+    </div>
+
+    <div class="w3-container">
+      <p>The ASUS ZenFone 5Z is a very different animal from the previous generation. Starting with its beautiful 6.2" display, the new device does a great job of overcoming past phones' criticism of having an unattractive design. But this more than just a pretty phone. The 5Z is jam-packed with legit flagship specs and incredible speakers, making it a great phone for media consumption.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+<div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>LEARN HOW-TO</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="img/03.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:300px">
+        <span class="w3-large">Get the New iPad Pro Wallpapers on Any iPhone</span><br>
+        <p>The current iPhone lineup inarguably features Apple's best displays to date, but the stock wallpapers don't really do the screens justice. There are plenty of third-party wallpapers you can use, as well as ones you create yourself. However, if you want that typical Apple feeling, you're better off sticking with Apple wallpapers, and the iPad Pro has some beautiful ones that look awesome on an iPhone.</p>
+    </li>
+      <li class="w3-padding-16">
+        <img src="img/04.jpg" alt="Image" class="w3-left w3-margin-right" style="width:300px">
+        <span class="w3-large">Turn Your Galaxy S9's Super Slow-Mo Videos into GIFs</span><br>
+        <p>The Galaxy S9's Super Slow-mo feature comes packed with tools that help you tweak your slow motion clips like a pro. Among these is the ability to convert your slow motion videos into GIFs with a user-friendly interface. As a result, it's incredibly easy to go from recording to GIF conversion and on to sharing in a few taps.</p>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="img/05.jpg" alt="Image" class="w3-left w3-margin-right" style="width:300px">
+        <span class="w3-large"> Recover WhatsApp Photos & Videos Deleted from Your Phone's Storage</span><br>
+        <p>Thanks to cloud storage's increasing accessibility, permanently losing photos is becoming less and less common. Still, if you accidentally delete a picture from your smartphone without first making a backup of some sort, that data is pretty much toast — unless we're talking about photos from WhatsApp.</p>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="img/06.jpg" alt="Image" class="w3-left w3-margin-right" style="width:300px">
+        <span class="w3-large"> How to make Garlic Soya Chicken</span><br>
+          <p>Delicious chicken chunks tossed in sticky soy sauce with garlic, bell peppers and snow peas.</p>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="img/07.jpeg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>Charge a Light Bulb Experiment</b></h4>
+      <p>Charge a light bulb with the use of comb with the Charge a Light Bulb Experiment. In this experiment, we will charge a light bulb just with the use of a comb and no other means of electricity.</p>
+      <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border" href="#"><b>READ MORE »</b></button></p>
+        </div>
+    </div>
+  </div><hr>
+
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="img/08.jpeg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>The Magic Egg Experiment</b></h4>
+      <p>Did you know that you could make an egg bounce? Try the Magic Egg experiment and see how it works.</p>
+      <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border" href="#"><b>READ MORE »</b></button></p>
+        </div>
+    </div>
+  </div><hr>
+
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="img/09.jpeg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>How to Make a Kite</b></h4>
+      <p>Making a kite together with your kids is such a wonderful learning experience and flying it together is tons of fun and SO rewarding! If you’ve been wondering how to make a kite, it’s really not as hard as it seems, and it’s definitely worth the time. Here’s how we made our own kite using newspaper!</p>
+      <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border" href="#"><b>READ MORE »</b></button></p>
+        </div>
+    </div>
+  </div><hr>
+
+  
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Popular Posts</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <a href="#" style="color:#000;"><img src="img/10.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:200px">
+        <span>Learn HOW-TO</span>
+        <span>How to Build an Electromagnet</span></a>
+      </li>
+      <li class="w3-padding-16">
+        <a href="#" style="color:#000;"><img src="img/07.1.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:200px">
+        <span>Learn HOW-TO</span>
+        <span>Securely Sync Files Between Two Machines Using Syncthing</span></a>
+      </li> 
+      <li class="w3-padding-16">
+        <a href="#" style="color:#000;"><img src="img/11.jpeg"alt="Image" class="w3-left w3-margin-right" style="width:200px">
+        <span>Learn HOW-TO</span>
+        <span>How to Create a Heat Detector</span></a>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <a href="#" style="color:#000;"><img src="img/09.1.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:200px">
+        <span>Learn HOW-TO</span>
+        <span>Bypass Locked Windows Computers to Run Kali Linux from a Live USB</span></a>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+ 
+  <!-- Labels / tags -->
+  
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <!--button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button-->
+</footer>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+
+</script>
 </body>
 </html>
